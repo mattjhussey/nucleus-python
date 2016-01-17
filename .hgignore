@@ -1,0 +1,27 @@
+# Emacs temporary files
+^.*~$
+
+# python compiled files
+^.*\.pyc$
+
+# Coverage analysis
+^.*/.coverage$
+^.*/htmlcov/.*$
+
+# Test environments
+^.*\.tox/.*$
+^.eggs/.*$
+^.*\.egg-info/.*$
+^.*\.cache/.*$
+^.*\.pylint.d/.*$
+^.venv/.*$
+^.devenv.*$
+
+# Log files
+^.*\.log$
+
+# Dist zips
+^.*/dist/.*\.zip$
+^.*/dist/.*\.whl$
+^.*/dist/.*\.egg$
+^.*/build/.*$
