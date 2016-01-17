@@ -9,8 +9,10 @@ def test_example():
 
 
 def test_main_arg():
+    """ Test main uses arguments """
     assert pybaseline.main.main(['--expected_result', '35']) == 35
 
 
 def test_main_no_arg():
+    """ Test main uses defaults """
     assert pybaseline.main.main([]) == 7

@@ -5,8 +5,8 @@
 ^.*\.pyc$
 
 # Coverage analysis
-^.*/.coverage$
-^.*/htmlcov/.*$
+^\.coverage$
+^htmlcov/.*$
 
 # Test environments
 ^.*\.tox/.*$
