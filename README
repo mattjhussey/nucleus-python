@@ -1,4 +1,5 @@
 This is an example setup for future python projects so that I can record and improve.
 
-[![Build Status](https://drone.io/bitbucket.org/matt_jd/pybaseline/status.png)](https://drone.io/bitbucket.org/matt_jd/pybaseline/latest)
-<a href="https://drone.io/bitbucket.org/matt_jd/pybaseline"><img src="https://drone.io/bitbucket.org/matt_jd/pybaseline/status.png" alt="Status"/></a>
+.. image:: https://drone.io/bitbucket.org/matt_jd/pybaseline/status.png
+    :target: https://drone.io/bitbucket.org/matt_jd/pybaseline
+    :alt: Drone.io Status
