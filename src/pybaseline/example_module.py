@@ -1,6 +1,6 @@
 """ Example module """
 
 
-def example_function():
+def example_function(result):
     """ Example function """
-    return 42
+    return result
