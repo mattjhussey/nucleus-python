@@ -18,6 +18,9 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 
+venv_in_env = False
+
+
 class Tox(TestCommand):
     """ Hook into running Tox for testing. """
     user_options = [('tox-args=', 'a', "Arguments to pass to tox")]
@@ -41,15 +44,30 @@ class Tox(TestCommand):
         # import here, cause outside the eggs aren't loaded
         import tox
         import shlex
-        import virtualenv
-        from os.path import dirname
-
-        ve_path = dirname(virtualenv.__file__)
-        try:
-            os.environ['PYTHONPATH'] += ';{0}'.format(ve_path)
-        except:
-            os.environ['PYTHONPATH'] = ve_path
-
+        
+        if not venv_in_env:
+            import virtualenv
+            from os.path import dirname
+            ve_path = dirname(virtualenv.__file__)
+            original_venv_create = tox.venv.tox_testenv_create
+            @tox.config.hookimpl
+            def wrap_venv_create(venv, action):
+                original_action_popen = action.popen
+                def wrap_action_popen(args, cwd, env, redirect, ignore_ret):
+                    try:
+                        env['PYTHONPATH'] += ';{0}'.format(ve_path)
+                    except:
+                        env['PYTHONPATH'] = ve_path
+                    return original_action_popen(
+                        args,
+                        cwd=cwd,
+                        env=env,
+                        redirect=redirect,
+                        ignore_ret=ignore_ret)
+                action.popen = wrap_action_popen
+                return original_venv_create(venv, action)
+            tox.venv.tox_testenv_create = wrap_venv_create
+                                      
         args = self.tox_args
         if args:
             args = shlex.split(self.tox_args)
@@ -60,6 +78,13 @@ class Tox(TestCommand):
 
 def main():
     """ Run the setup. """
+    try:
+        import virtualenv
+        global venv_in_env
+        venv_in_env = True
+    except ImportError:
+        pass
+
     setup(
         name="pybaseline",
         version="0.0.1",
