@@ -11,7 +11,7 @@ def variable():
     return {}
 
 
-@scenario('..\\features\\example.feature', 'Testing pytest-bdd works')
+@scenario('../features/example.feature', 'Testing pytest-bdd works')
 def test_testing_pytestbdd_works():
     """Testing pytest-bdd works."""
 
