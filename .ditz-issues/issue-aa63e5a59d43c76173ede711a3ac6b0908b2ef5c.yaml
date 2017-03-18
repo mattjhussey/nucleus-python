@@ -6,8 +6,8 @@ component: pybaseline
 release: 
 reporter: Matthew Hussey <matthew.hussey@googlemail.com>
 claimer: 
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2017-03-18 16:47:00.605000 Z
 references: []
 
@@ -16,4 +16,12 @@ log_events:
 - - 2017-03-18 16:47:00.607000 Z
   - Matthew Hussey <matthew.hussey@googlemail.com>
   - created
+  - ""
+- - 2017-03-18 17:01:46.910000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - changed status from unstarted to in progress
+  - ""
+- - 2017-03-18 17:04:24.307000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - closed with disposition fixed
   - ""
