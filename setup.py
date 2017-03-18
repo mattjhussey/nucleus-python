@@ -94,6 +94,10 @@ def main():
         license="None, private use by myself only",
         keywords="python",
         url="none.non",
+        entry_points={
+            'console_scripts': [
+                'pybaseline = pybaseline.__main__:main'
+            ]},
         packages=find_packages(where='src'),
         package_data={},
         package_dir={'': 'src'},
