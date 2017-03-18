@@ -12,11 +12,11 @@ PARSER.add_argument('--expected_result',
                     help='The expected result (default: %(default)s)')
 
 
-def main(args):
+def main():
     """Main entry point."""
-    parsed = PARSER.parse_args(args)
+    parsed = PARSER.parse_args(sys.argv[1:])
     return example_function(parsed.expected_result)
 
 
 if __name__ == '__main__':
-    print main(sys.argv[1:])
+    print main()
