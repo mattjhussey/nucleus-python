@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Tidy tox file
+desc: The packages and dirs sections just look messy and confuse things, as do the test options. Tox should just do what it does and if a developer wants to run other options then they can do from the command line.
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 09:44:13.933000 Z
+references: []
+
+id: 16494ee03e29577b2d1acd2e4e93482e1c6b84d4
+log_events: 
+- - 2017-03-18 09:44:13.935000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
