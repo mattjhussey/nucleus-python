@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Remove bdd
+desc: I'm just don't feel that it really helps right now. I can do bdd in pytest without using gherkin/cucumber/whatever.
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 16:46:36.157000 Z
+references: []
+
+id: 7183616286e64faf2a09d41800202f11c2ac5aa3
+log_events: 
+- - 2017-03-18 16:46:36.160000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""

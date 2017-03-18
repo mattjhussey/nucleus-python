@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Fix the entry point. main() doesn't work if it needs to take arguments.
+desc: ""
+type: :bugfix
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 16:45:29.695000 Z
+references: []
+
+id: 390f42d823d264526d5c72c5962f26da13ac6211
+log_events: 
+- - 2017-03-18 16:45:29.709000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
