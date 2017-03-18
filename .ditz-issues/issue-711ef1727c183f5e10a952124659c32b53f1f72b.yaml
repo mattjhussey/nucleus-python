@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add entry point to setup.py
+desc: ""
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 09:38:11.341000 Z
+references: []
+
+id: 711ef1727c183f5e10a952124659c32b53f1f72b
+log_events: 
+- - 2017-03-18 09:38:11.344000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""

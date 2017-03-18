@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add missing interpreter option to tox
+desc: ""
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 09:38:24.273000 Z
+references: []
+
+id: 819389099ba137ac546ae641e91e9104ad08106d
+log_events: 
+- - 2017-03-18 09:38:24.275000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
