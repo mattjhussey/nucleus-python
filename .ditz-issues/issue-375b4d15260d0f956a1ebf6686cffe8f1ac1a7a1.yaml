@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Replace Drone.io with pipelines
+desc: Pipelines just seems easier to work with.
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 08:15:48.039000 Z
+references: []
+
+id: 375b4d15260d0f956a1ebf6686cffe8f1ac1a7a1
+log_events: 
+- - 2017-03-18 08:15:48.040000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""

@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add pydocstyle.
+desc: ""
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 08:19:48.025000 Z
+references: []
+
+id: 8bd545c4eccf65967b277acead0a96e5548d9766
+log_events: 
+- - 2017-03-18 08:19:48.027000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
