@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add logging config and use
+desc: logging.conf as a default for now. For future add an command line option to choose a different configuration.
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-18 17:24:42.625000 Z
+references: []
+
+id: a97e5cdd80c9e74e8f2de96418715c6226da1b35
+log_events: 
+- - 2017-03-18 17:24:42.628000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
