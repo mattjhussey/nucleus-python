@@ -1,6 +1,6 @@
-""" Example module """
+"""Example module."""
 
 
 def example_function(result):
-    """ Example function """
+    """Example function."""
     return result

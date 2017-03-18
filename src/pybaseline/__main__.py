@@ -13,7 +13,7 @@ PARSER.add_argument('--expected_result',
 
 
 def main(args):
-    """ main """
+    """Main entry point."""
     parsed = PARSER.parse_args(args)
     return example_function(parsed.expected_result)
 

@@ -8,6 +8,7 @@ from robber import expect
 
 @fixture
 def variable():
+    """Context variable fixture."""
     return {}
 
 
@@ -29,6 +30,6 @@ def i_set_a_variable_to_something(variable):
 
 @then('the variable should be available')
 def the_variable_should_be_available(variable):
-    """the variable should be available."""
+    """The variable should be available."""
     expect(variable).to.contain('something')
     expect(variable['something']).to.be.truthy()
