@@ -38,14 +38,17 @@ def main():
                 'pybaseline = pybaseline.__main__:main'
             ]},
         packages=find_packages(where='src'),
-        package_data={},
+        package_data={
+            'pybaseline': [
+                'logging.conf'
+            ]},
         package_dir={'': 'src'},
         install_requires=[],
         long_description=read("README"),
         classifiers=[
             "Development Status :: 1 - Planning"],
         setup_requires=['pytest-runner'],
-        tests_require=['mock', 'pytest-cov', 'robber', 'pytest']
+        tests_require=['mock', 'pytest-catchlog', 'pytest-cov', 'robber', 'pytest']
     )
 
 if __name__ == "__main__":

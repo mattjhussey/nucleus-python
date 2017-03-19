@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add customisable logging config
+desc: Add a command line variable to customise the logging configuration.
+type: :task
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-03-19 09:16:38.740000 Z
+references: []
+
+id: b80e7cf1e4ed0e7b613686461e01c8a8204d8933
+log_events: 
+- - 2017-03-19 09:16:38.742000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
