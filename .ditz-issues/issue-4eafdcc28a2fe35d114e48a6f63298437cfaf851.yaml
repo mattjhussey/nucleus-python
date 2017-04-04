@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Change pytest-cov to use the package, not the folder.
+desc: using src/pybaseline means that the tests wouldn't work on an installed package. pybaseline seems to work on the src version or an installed version.
+type: :feature
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-04-02 18:20:55.145000 Z
+references: []
+
+id: 4eafdcc28a2fe35d114e48a6f63298437cfaf851
+log_events: 
+- - 2017-04-02 18:20:55.148000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""

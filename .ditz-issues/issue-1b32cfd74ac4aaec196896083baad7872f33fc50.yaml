@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Use README.MD instead of README
+desc: README.MD works with bitbucket. Alternatively, work out how to use README in bitbucket.
+type: :feature
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-04-02 18:19:30.664000 Z
+references: []
+
+id: 1b32cfd74ac4aaec196896083baad7872f33fc50
+log_events: 
+- - 2017-04-02 18:19:30.686000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
