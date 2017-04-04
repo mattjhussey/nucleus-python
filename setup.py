@@ -47,8 +47,8 @@ def main():
         long_description=read("README"),
         classifiers=[
             "Development Status :: 1 - Planning"],
-        setup_requires=['pytest-runner'],
-        tests_require=['mock', 'pytest-catchlog', 'pytest-cov', 'robber', 'pytest']
+        setup_requires=[],
+        tests_require=[]
     )
 
 if __name__ == "__main__":
