@@ -1,0 +1,19 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add command line argument to show logging.
+desc: Remove logging by default.
+type: :feature
+component: pybaseline
+release: 
+reporter: Matthew Hussey <matthew.hussey@googlemail.com>
+claimer: 
+status: :unstarted
+disposition: 
+creation_time: 2017-05-28 15:28:28.396000 Z
+references: []
+
+id: 57335f5c3f08b755c839dbf323e5dd8bfbc1684c
+log_events: 
+- - 2017-05-28 15:28:28.399000 Z
+  - Matthew Hussey <matthew.hussey@googlemail.com>
+  - created
+  - ""
