@@ -4,6 +4,10 @@ from argparse import ArgumentParser
 import logging
 import logging.config
 import sys
+try:
+    import Tkinter as tk
+except ImportError:
+    import tkinter as tk
 import pkg_resources
 from .example_module import example_function
 
@@ -38,7 +42,7 @@ def main():
 
 def main_ui():
     """Open the main user interface."""
-    pass
+    tk._test()
 
 
 if __name__ == '__main__':
