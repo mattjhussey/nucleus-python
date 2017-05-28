@@ -6,7 +6,7 @@ import logging.config
 import sys
 try:
     import Tkinter as tk
-except ImportError:
+except ImportError:  # pragma: no cover
     import tkinter as tk
 import pkg_resources
 from .example_module import example_function
