@@ -42,7 +42,9 @@ def main():
 
 def main_ui():
     """Open the main user interface."""
-    tk._test()
+    root = tk.Tk()
+    tk.Button(root, text='Hello World').grid()
+    root.mainloop()
 
 
 if __name__ == '__main__':
