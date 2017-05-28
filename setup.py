@@ -1,13 +1,4 @@
-"""Setup file for install and test.
-
-Taken from:
-https://pythonhosted.org/an_example_pypi_project/setuptools.html
-for pytest:
-https://pytest.org/latest/goodpractises.html
-for tox:
-https://testrun.org/tox/latest/example/basic.html#
-integration-with-setuptools-distribute-test-commands
-"""
+"""Setup file for install and test."""
 
 import os
 from setuptools import setup
