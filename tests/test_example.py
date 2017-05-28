@@ -4,7 +4,7 @@ from mock import patch
 from robber import expect
 import sys
 import pybaseline
-from pybaseline.__main__ import main
+from pybaseline.__main__ import main, main_ui
 
 
 LOGGER = logging.getLogger(__name__)
@@ -35,6 +35,11 @@ def test_main_no_arg(capsys):
 
     out, err = capsys.readouterr()
     expect(out).to.contain('7')
+
+
+def test_main_ui():
+    """Test that the main ui opens."""
+    main_ui()
 
 
 def test_caplog_ok(caplog):

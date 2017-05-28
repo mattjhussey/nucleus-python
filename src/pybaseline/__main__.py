@@ -36,5 +36,10 @@ def main():
     LOGGER.debug('Result: %s', result)
 
 
+def main_ui():
+    """Open the main user interface."""
+    pass
+
+
 if __name__ == '__main__':
     print(main())
