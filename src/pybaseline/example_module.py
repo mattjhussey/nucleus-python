@@ -6,6 +6,10 @@ LOGGER = logging.getLogger(__name__)
 
 
 def example_function(result):
-    """Example function."""
+    """
+    Echo the passed in value.
+
+    Example function.
+    """
     LOGGER.debug('Example: %s', result)
     return result

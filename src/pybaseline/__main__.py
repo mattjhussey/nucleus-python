@@ -11,7 +11,11 @@ LOGGER = logging.getLogger(__name__)
 
 
 def main():
-    """Main entry point."""
+    """
+    Run the application.
+
+    Main entry point.
+    """
     log_path = pkg_resources.resource_filename(__name__, "logging.conf")
     logging.config.fileConfig(log_path,
                               disable_existing_loggers=False)
