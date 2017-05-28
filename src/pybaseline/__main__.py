@@ -1,4 +1,5 @@
 """Main entry point."""
+from __future__ import print_function
 from argparse import ArgumentParser
 import logging
 import logging.config
@@ -31,9 +32,9 @@ def main():
 
     result = example_function(parsed.expected_result)
 
-    print result
+    print(result)
     LOGGER.debug('Result: %s', result)
 
 
 if __name__ == '__main__':
-    print main()
+    print(main())
