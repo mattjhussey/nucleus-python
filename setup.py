@@ -27,6 +27,9 @@ def main():
         entry_points={
             'console_scripts': [
                 'pybaseline = pybaseline.__main__:main'
+            ],
+            'gui_scripts': [
+                'pybaseline_ui = pybaseline.__main__:main_ui'
             ]},
         packages=find_packages(where='src'),
         package_data={
