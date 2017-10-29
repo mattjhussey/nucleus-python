@@ -1,6 +1,5 @@
-node ('docker') {
-
-  docker.image('python:2.7.14').inside('-u root') {
+node {
+  docker.image('python:2.7.14') {
     stage 'Get tools'
       pip install tox
     
